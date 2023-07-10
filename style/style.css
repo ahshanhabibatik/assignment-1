@@ -13,7 +13,8 @@
     text-align: left;
     background: rgba(229, 84, 115, 0.10);
 }
-.header-content{
+
+.header-content {
     margin: 100px 40px;
     padding: 20px;
 }
@@ -23,7 +24,7 @@
     font-size: 80px;
     font-weight: 800;
     margin-bottom: 10px;
-   
+
 
 }
 
@@ -31,7 +32,7 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; 
+    line-height: 30px;
     margin-bottom: 10px;
 }
 
@@ -48,5 +49,74 @@
 .profile-pic {
     width: 635px;
     height: 100vh;
-         
+
+}
+
+.main-container {
+    width: auto;
+    height: 4867px;
+    background: #FFF;
+}
+
+.main-flower {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main-heading {
+    color: #272727;
+    font-size: 40px;
+    padding: 20px;
+
+}
+
+.main-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding: 10px;
+}
+
+.main-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 40px 30px;
+    gap: 10px;
+
+}
+
+.image1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+
+
+}
+
+.image-resize {
+    width: 310px;
+    height: 428px;
+    margin-top: 110px;
+     
+}
+
+.image2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.image3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.link{
+    padding: 20px;
+    margin-top: 20px;
 }
