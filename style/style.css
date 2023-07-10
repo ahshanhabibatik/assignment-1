@@ -41,8 +41,7 @@
     background: #E55473;
     color: #FFF;
     font-size: 20px;
-    font-weight: 700;
-    padding: 20px;
+    padding: 15px;
 
 }
 
@@ -148,7 +147,47 @@
 }
 
 .icon-discription {
-    color: rgba(39, 39, 39, 0.80);  
+    color: rgba(39, 39, 39, 0.80);
     font-size: 24px;
 
+}
+
+/* <!-- start discount section css code start --> */
+.discount-container {
+    width: auto;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.discount-bar{
+    margin-left: 200px;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+
+}
+
+.discount-off {
+    color: #E55473;
+}
+
+.discount-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding: 10px;
+}
+
+.discount-img {
+    width: 318px;
+    height: 420px;
+    margin-right: 200px;
 }
