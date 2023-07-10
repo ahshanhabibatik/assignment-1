@@ -76,20 +76,22 @@
     padding: 10px;
 }
 
+/* <!-- start main section css code --> */
+
 .main-box {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-    margin: 40px 30px;
     gap: 10px;
+    margin: 80px 280px;
 
 }
 
 .image1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 464px;
+    width: 400px;
     height: 538px;
 
 
@@ -99,24 +101,54 @@
     width: 310px;
     height: 428px;
     margin-top: 110px;
-     
+
 }
 
 .image2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    width: 464px;
+    width: 400px;
     height: 538px;
 }
 
 .image3 {
-    width: 464px;
+    width: 400px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
 
-.link{
+.link {
     padding: 20px;
     margin-top: 20px;
+}
+
+/* <!-- icon box square model start/delivery section css code --> */
+
+.icon-container {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: auto;
+    height: 280px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 80px 180px;
+
+}
+
+.group-icon {
+    width: 88px;
+    height: 68px;
+    padding: 20px;
+
+
+}
+
+.icon-discription {
+    color: rgba(39, 39, 39, 0.80);  
+    font-size: 24px;
+
 }
