@@ -85,6 +85,7 @@
     gap: 10px;
     margin: 80px 280px;
 
+
 }
 
 .image1 {
@@ -164,7 +165,8 @@
     justify-content: space-around;
 
 }
-.discount-bar{
+
+.discount-bar {
     margin-left: 200px;
 }
 
@@ -190,4 +192,50 @@
     width: 318px;
     height: 420px;
     margin-right: 200px;
+}
+
+/* insta section css */
+.insta {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.insta-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+
+
+}
+
+.inta-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px;
+
+}
+
+
+.insta-img {
+    width: 342px;
+    height: 396px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between;
+    gap: 10px;
+    padding: 30px;
+    margin-left: 140px;
+   
+
+}
+
+.img-size {
+    width: 350px;
+    height: 350px;
+    
+     
 }
